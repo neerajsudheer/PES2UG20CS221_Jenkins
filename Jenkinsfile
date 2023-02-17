@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                ./main/sample1.cpp
+                sh "./main/sample1.cpp"
             }
         }
     }
