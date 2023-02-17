@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh "./main/sample1.cpp"
+                sh './PES2UG20CS221-1'
             }
         }
     }
@@ -19,6 +19,6 @@ pipeline {
         }
         failure {
             echo 'Pipeline failed'
-        }
-    }
+        }
+    }
 }
